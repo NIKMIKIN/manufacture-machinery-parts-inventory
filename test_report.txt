@@ -1,0 +1,37 @@
+### Test Summary
+    - Tested feature: Zoo inventory
+    - Test environment: development
+    - Test duration: 1.18s
+    - Test coverage: 100%
+    - Test results: PASS
+
+### Test Cases Executed
+
+Test Case: Verify that a new user can successfully register a new enclosure
+    - Test result: PASS
+    - Notes: Tested with a variety of valid input values and verified that a new enclosure was created for each test
+
+Test Case: Verify that the database connection is secure
+    - Test result: PASS
+    - Notes: Tested with both active databases
+
+Test Case: Verify that tables have been filled
+    - Test result: PASS
+    - Notes: Tested with both tables (enclosure/animal)
+
+Test Case: Verify File exists and Contents are in file
+    - Test result: PASS
+    - Notes: Tested via test.log file
+
+Test Case: Verify inputs are particular data types
+    - Test result: PASS
+    - Notes: Tested with a variety of values such as strings and ints 
+
+Test Case: Verify that different dummy data works for lists/tuples of data 
+    - Test result: PASS
+    - Notes: Tested with a variety of values in both cases animals & enclosures 
+
+Test Issues 
+    - Current issues are having main file connect to endpoints
+
+Conclusion 

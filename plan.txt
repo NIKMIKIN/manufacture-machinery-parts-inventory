@@ -1,0 +1,23 @@
+### Requirement of Tests
+(1)Tests purpose are to ensure that our functions are able to inventory parts for our manufacture with 8 different attributes. (2)We must validate the functionality of our new features. 
+Types of tests that will be implemented will be testing our connection to queries, whether or not animals are being enclosed within their enclosure, how many animals are being logged, and
+that id's are being logged to animals and the table. (3) For inputs well have to use data such as different animals, positive and negative values for quantities, and test our database
+ and connection. (4) Expected outputs should be all animals, types, and quantities. (5) assumptions being made are that we don't place same animal types in enclosures. (6) Constraints
+ could be compatibility issues between animals and enclosures. (7) risks and potential issues are most likely to come from query tables and apis.
+
+ ###USER Stories
+ As a test engineer, I want to be able to ensure quality tests at the end of development
+
+ ###Example Test Cases
+ Test Summary
+
+    - Tested Feature: database creation
+    - Test environment: development
+    - Test coverage:
+    - Test results:
+
+Test case: Verify that the system correctly generates 2 tables, inserted into, and queried from
+
+Test case: Verify that enclosure table has 2 data points with ID and Enclosure Names
+
+Test Case: Verify that animal table has 4-5 data points including ID, animal name, qty, enclosure name, and enclosure_id
